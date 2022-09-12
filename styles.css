@@ -1,0 +1,278 @@
+*
+{
+  font-family: 'Combo', cursive;
+}
+
+header {
+  background-color: #2B2B2B;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 10%;
+}
+
+body{
+  background-color: #EFEFEF;
+}
+
+section {
+  display: grid;
+  grid-template-columns:repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 75px;
+}
+
+article {
+  background-color: #FFFFFF;
+  margin: 10px;
+  padding-bottom: 50px;
+  height: 100%;
+}
+
+.shares-icon,
+.playlist-icon,
+.video-icon,
+.spiderweb-icon,
+.downward-triangle-arrow {
+  height: 20px;
+  width: 20px;
+}
+
+.playlist-icon,
+.video-icon,
+.downward-triangle-arrow {
+  filter: invert(26%) sepia(21%) saturate(7498%) hue-rotate(250deg) brightness(83%) contrast(87%);
+}
+.admin-user {
+  color: #673AB7;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.shares-icon,
+.company-cauldron-icon {
+filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(210deg) brightness(105%) contrast(105%);
+}
+
+.shares-icon,
+.playlist-icon,
+.video-icon {
+  padding-right: 10px;
+}
+
+.shares-options,
+.company-name {
+  color: #ffffff;
+}
+
+.playlist-options,
+.video-options {
+  color: #808080;
+}
+
+.spiderweb-icon {
+filter: invert(53%) sepia(14%) saturate(14%) hue-rotate(104deg) brightness(92%) contrast(85%);
+}
+
+.company-name {
+  color: #FFFFFF;
+  font-size: 50px;
+  height: 50%;
+}
+
+.company-cauldron-icon {
+  height: 35px;
+  width: 35px;
+}
+
+.navigation-bar {
+  display: flex;
+  align-items: flex-end;
+}
+
+.navigation-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 2em;
+  justify-content: space-evenly;
+}
+
+.page-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-site-use {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.administrator {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.company-winners {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  margin-right: 20px;
+}
+
+.arrow-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.arrow-icon {
+  background-color: #FFFFFF;
+  border-radius: 45%;
+  width: 30px;
+  height: 30px;
+}
+.hocus-pocus-card-1,
+.hocus-pocus-card-2,
+.hocus-pocus-card-3,
+.hocus-pocus-card-4,
+.hocus-pocus-card-5,
+.hocus-pocus-card-6,
+.hocus-pocus-card-7,
+.hocus-pocus-card-8 {
+  background-color: #26B6FD;
+  background-size: cover;
+  color: #FFFFFF;
+  height: 60%;
+  display: flex;
+  justify-content: space-between;
+  filter: brightness(90%);
+  filter: grayscale(50%);
+}
+
+.hocus-pocus-card-1 {
+  background-image: url("assets/winifred_sanderson.webp");
+  background: cover;
+}
+
+.hocus-pocus-card-2 {
+  background-image: url("assets/sarah_sanderson.webp");
+  background: cover;
+}
+
+.hocus-pocus-card-3 {
+  background-image: url("assets/mary_sanderson.webp");
+  background: cover;
+}
+
+.hocus-pocus-card-4 {
+  background-image: url("assets/book.webp");
+  background: cover;
+}
+
+.hocus-pocus-card-5 {
+  background-image: url("assets/thackery_binx.jpeg");
+  background: cover;
+}
+
+.hocus-pocus-card-6 {
+  background-image: url("assets/billy_butcherson.webp");
+  background: cover;
+}
+
+.hocus-pocus-card-7 {
+  background-image: url("assets/maxdennison.jpeg");
+  background: cover;
+}
+
+.hocus-pocus-card-8 {
+  background-image: url("assets/dannidennison.webp");
+  background: cover;
+}
+
+.card-view-container {
+  display: flex;
+  margin: 15px;
+  margin-top: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.view-header {
+  font-size: 10px;
+  margin: 10px;
+  margin-bottom: 0;
+}
+
+.view-numbers {
+  font-size: 25px;
+  margin-top: 0;
+  margin: 0;
+}
+
+.participant-name {
+  font-size: 20px;
+  font-weight: 900;
+  margin: 8px;
+  margin-bottom: 0;
+}
+
+.date {
+  font-size: 15px;
+  font-weight: 100;
+  margin: 0;
+  margin-bottom: 20px;
+  margin-left: 8px;
+}
+
+.participant-link {
+  background-color: #EFEFEF;
+  color: #4D4D4D;
+  font-size: 12px;
+  font-weight: 150;
+  text-decoration: none;
+  margin: 8px;
+  padding: 8px;
+}
+
+.personal-playlist {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  margin-left: 8px;
+  margin-top: 20px;
+}
+
+.playlist-name {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  margin-left: 8px;
+}
+
+.attachments {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 0px;
+  margin-left: 8px;
+  margin-top: 20px;
+}
+
+.number-attachments {
+  color: #673AB7;
+  font-size: 30px;
+  font-weight: 150;
+  margin-left: 8px;
+  margin-top: 0;
+}
